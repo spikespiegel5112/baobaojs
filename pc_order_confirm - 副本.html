@@ -9,8 +9,6 @@
 	<meta name="author" content="">
 	<meta name="keywords" content="">
 	<title>忆尔-确认订单</title>
-	<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css" media="all">
-	<link rel="stylesheet" href="assets/css/chosen.css" type="text/css" media="all">
 	<!-- build:css css/all.min.css -->
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/common.css" type="text/css" media="all">
@@ -19,62 +17,13 @@
 </head>
 
 <body>
-	<!--头部导航-->
-	<div class="cm_header_nav">
-		<div class="logo">
-			<a href="index.html"><img src="img/logo.png"></a>
-		</div>
-		<div class="nav">
-			<ul>
-				<li><a href="index.html" class="active">首页</a></li>
-				<li><a href="booklist_photo.html">照片书</a></li>
-				<li><a href="booklist_ia.html">互动册</a></li>
-				<li><a href="pc_mybookshelf.html">个人中心</a></li>
-				<li><a href="static_instruction_entrance.html">使用指南</a></li>
-			</ul>
-		</div>
-		<div class="nav_login">
-			<ul>
-				<li><a href="access_login.html">登录</a></li>
-            <li><a href="access_register.html">注册</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="cm_header_shadow"></div>
+	
 	<div class='opd_wrapper'>
-		<div class='opd_procedure_wrapper'>
-			<ul>
-				<li class='active'>
-					<div class='opdnode_text_item'><span></span>
-						<label>确认下单</label>
-					</div>
-				</li>
-				<li>
-					<div class='opdnode_dash_item'></div>
-					<div class='opdnode_text_item'><span></span>
-						<label>填写收货地址</label>
-					</div>
-				</li>
-				<li>
-					<div class='opdnode_dash_item'></div>
-					<div class='opdnode_text_item'><span></span>
-						<label>在线支付</label>
-					</div>
-				</li>
-				<li>
-					<div class='opdnode_dash_item'></div>
-					<div class='opdnode_text_item'><span></span>
-						<label>等待收货</label>
-					</div>
-				</li>
-			</ul>
-		</div>
 		<div class='opd_checklist_wrapper'>
 			<table>
 				<thead>
 					<tr>
 						<th>尺寸选择</th>
-						<th>装订选择</th>
 						<th>内页数量</th>
 						<th>入册照片数量</th>
 						<th>单价</th>
@@ -90,39 +39,6 @@
 									<option val='1'>别致小装</option>
 									<option val='2'>气派大装</option>
 								</select>
-								<img src="img/book_details/min_size.jpg">
-								<label>尺寸实例图片
-									<div class='ybcommon_queryicon_item'>
-										<span class='icon-question-sign'></span>
-										<div>
-											<p>
-												书册尺寸宽14.5cm，长21.0cm
-											</p>
-											<a class='ybcommon_qimoredetail_btn' href="static_hc_bind_size.html" target='_blank'>查看详情</a>
-										</div>
-									</div>
-								</label>
-							</div>
-						</td>
-						<td>
-							<div class='opd_sketch_item'>
-								<select>
-									<option val='10'>平装（软面）</option>
-									<option val='20'>精装（硬壳）</option>
-									<option val='30'>蝴蝶装（硬壳）</option>
-								</select>
-								<img src="img/book_details/paperback.jpg">
-								<label>装订实例图片
-									<div class='ybcommon_queryicon_item'>
-										<span class='icon-question-sign'></span>
-										<div>
-											<p>
-												书册采用包装为胶装覆膜
-											</p>
-											<a class='ybcommon_qimoredetail_btn' href="static_hc_bind_size.html" target='_blank'>查看详情</a>
-										</div>
-									</div>
-								</label>
 							</div>
 						</td>
 						<td>
@@ -153,39 +69,6 @@
 									<option val='1'>别致小装</option>
 									<option val='2'>气派大装</option>
 								</select>
-								<img src="img/book_details/min_size.jpg">
-								<label>尺寸实例图片
-									<div class='ybcommon_queryicon_item'>
-										<span class='icon-question-sign'></span>
-										<div>
-											<p>
-												书册尺寸宽14.5cm，长21.0cm
-											</p>
-											<a class='ybcommon_qimoredetail_btn' href="static_hc_bind_size.html" target='_blank'>查看详情</a>
-										</div>
-									</div>
-								</label>
-							</div>
-						</td>
-						<td>
-							<div class='opd_sketch_item'>
-								<select>
-									<option val='10'>平装（软面）</option>
-									<option val='20'>精装（硬壳）</option>
-									<option val='30'>蝴蝶装（硬壳）</option>
-								</select>
-								<img src="img/book_details/paperback.jpg">
-								<label>装订实例图片
-									<div class='ybcommon_queryicon_item'>
-										<span class='icon-question-sign'></span>
-										<div>
-											<p>
-												书册采用包装为胶装覆膜
-											</p>
-											<a class='ybcommon_qimoredetail_btn' href="static_hc_bind_size.html" target='_blank'>查看详情</a>
-										</div>
-									</div>
-								</label>
 							</div>
 						</td>
 						<td>
@@ -213,75 +96,8 @@
 			</table>
 		</div>
 		<div class='opd_summarize_wrapper'>
-			<div class='opd_preferential_wrapper'>
-				<div class='opd_coupon_wrapper'>
-					<div>
-						<label>选择我的优惠券</label>
-						<select>
-							<option>满50减10</option>
-							<option>满100减20</option>
-							<option>满200减40</option>
-							<option>满400减80</option>
-							<option>满500减100</option>
-							<option>满5000减1000</option>
-							<option>一二三四五六七八九十一二三四五</option>
-						</select>
-						<a class='common_btn' href="javascript:;">我要兑换优惠券</a>
-					</div>
-					<div>
-						<div class='ybcommon_queryicon_item'>
-							<span class='icon-question-sign'></span>
-							<div>
-								<p>
-									关注忆尔公众号领取优惠券
-								</p>
-								<a class='ybcommon_qimoredetail_btn' href="static_hc_coupon.html" target='_blank'>查看详情</a>
-							</div>
-						</div>
-						<label>我要兑换优惠券</label>
-						<ul class='common_serialnumber_item'>
-							<li>
-								<input type='text' maxlength='4'>
-							</li>
-							<li>
-								<span>-</span>
-								<input type='text' maxlength='4'>
-							</li>
-							<li>
-								<span>-</span>
-								<input type='text' maxlength='4'>
-							</li>
-							<li>
-								<span>-</span>
-								<input type='text' maxlength='4'>
-							</li>
-						</ul>
-						<a class='common_btn' href="javascript:;">确认</a>
-					</div>
-				</div>
-				<div class='opd_privilege_wrapper'>
-					<p><a href="javascript:;">-</a>已享受的优惠</p>
-					<ul>
-						<li>
-							<label>[活动]</label>全场书册免费包邮配送
-						</li>
-					</ul>
-				</div>
-			</div>
 			<div class='opd_subtotal_wrapper'>
 				<ul>
-					<li class='opd_mercprice_item'>
-						<label>商品金额：</label>
-						<strong>
-							￥<span>38.00</span>
-						</strong>
-					</li>
-					<li class='opd_privprice_item'>
-						<label>优惠金额：</label>
-						<strong>
-							￥<span>38.00</span>
-						</strong>
-					</li>
 					<li class='opd_subtotalprice_item'>
 						<label>实际需支付：</label>
 						<strong>
@@ -292,237 +108,18 @@
 			</div>
 			<div class='clearfloat'></div>
 		</div>
-		<DIV class='opd_confirm_wrapper'>
-			<div class='opd_advice_wrapper'>
-				<div class="ybcommon_queryicon_item">
-					<span class='icon-question-sign'></span>
-					<div>
-						<p>
-							忆尔将根据您的内页数量给出合适的装订建议
-						</p>
-						<a class="ybcommon_qimoredetail_btn" href="static_hc_bind_size.html" target='_blank'>查看详情</a>
-					</div>
-				</div>
-				<label>忆尔建议：您的内页数量较少，装订方式可以选择使用蝴蝶装</label>
-			</div>
-			<div class='opd_confirmbtn_wrapper'>
-				<a class='opd_notyetbtn_item' href="javascript:;">还没做好，返回制作</a>
-				<a class='opd_confirm_item' href="javascript:;">确认下单<span></span></a>
-			</div>
-		</DIV>
-	</div>
-	<!--底部-->
-	<div class="footer new cm_min_width">
-		<div class="ft_service">
-			<div class="contact cm_fl">
-				<dl>
-					<dt>客服QQ：</dt>
-					<dd><a href="javascript:;">4000610127</a></dd>
-					<dt>客服电话：</dt>
-					<dd><a href="javascript:;">400-061-0127</a></dd>
-					<dt>在线时间：</dt>
-					<dd>周一~周日 9:00-22:00</dd>
-					<dt>官方微信：</dt>
-					<dd>
-						<div>
-							<img src="img/footer_wx.png" alt="官方微信">
-							<p>关注微信公众号
-								<br><span>领取优惠券</span></p>
-						</div>
-					</dd>
-				</dl>
-			</div>
-			<div class="ft_nav cm_fl">
-				<dl class="forel1">
-					<dt>关于忆尔</dt>
-					<dd>
-						<div><a target="_blank" href="static_hc_story.html">忆尔的故事</a></div>
-						<div><a target="_blank" href="static_hc_callme.html">联系我们</a></div>
-						<div><a target="_blank" href="static_hc_secret.html">用户隐私条款</a></div>
-						<div><a target="_blank" href="static_hc_feedback.html">意见反馈</a></div>
-					</dd>
-				</dl>
-				<dl class="forel2">
-					<dt>购买指南</dt>
-					<dd>
-						<div><a target="_blank" href="static_hc_course.html">制作教程</a></div>
-						<div><a target="_blank" href="static_hc_question.html">常见问题</a></div>
-						<div><a target="_blank" href="static_hc_coupon.html">优惠券使用</a></div>
-					</dd>
-				</dl>
-				<dl class="forel3">
-					<dt>支付及配送</dt>
-					<dd>
-						<div><a target="_blank" href="static_hc_payway.html">支付方式</a></div>
-						<div><a target="_blank" href="static_hc_dispatching.html">配送方式</a></div>
-						<div><a target="_blank" href="static_hc_service.html">质量保证</a></div>
-						<div><a target="_blank" href="static_hc_invoice.html">发票说明</a></div>
-					</dd>
-				</dl>
-			</div>
-			<div class="yb_encyclopedia cm_fl">
-				<h4>忆尔百科</h4>
-				<ul>
-					<li>
-						<a href="javascript:;">如何制作一本照片书？</a>
-					</li>
-					<li>
-						<a href="javascript:;">什么叫互动册？</a>
-					</li>
-					<li>
-						<a href="javascript:;">大学毕业册应该如何制作？</a>
-					</li>
-					<li>
-						<a href="javascript:;">同学聚会是我们都做些什么？</a>
-					</li>
-					<li>
-						<a href="javascript:;">如何制作一本照片书？</a>
-					</li>
-					<li>
-						<a href="javascript:;">什么叫互动册？</a>
-					</li>
-					<li>
-						<a href="javascript:;">大学毕业册应该如何制作？</a>
-					</li>
-					<li>
-						<a href="javascript:;">同学聚会是我们都做些什么？</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="ft_copyright">
-			<p>Copyright 2015 网上经营许可证号：苏ICP备11087253号-2</p>
-			<div><a href="static_hc_company_profile.html">北京众志和达数据计算有限公司</a></div>
-		</div>
-	</div>
-	<!--当书册页数为奇数时，弹窗提示-->
-	<div class="book_oddpage_tips hidden">
-		<p>目前书册总页数为奇数页，为保证印刷质量，
-			<br>请添加或删除书页至<span>偶数页</span>再提交订单！</p>
+		
 	</div>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/chosen.jquery.min.js"></script>
-	<script type="text/javascript" src='assets/js/jquery.artDialog.js?skin=yb3'></script>
 	<script type="text/javascript" src="js/base.js"></script>
 	<script type="text/javascript">
 	$(function() {
-		orderConfirm();
 		$('.ybcommon_counter_item').priceCalculator({
 			unitprice: '.opd_unitprice_item',
 			subtotal: '.opd_summaraize_item label',
 			totalprice:'.opd_subtotalprice_item span'
 		});
-		// $('.ybcommon_counter_item').priceCalculator();
-		serialNumber();
-		ybcommonqueryicon();
 	})
-
-	function orderConfirm() {
-		//已享受的优惠的下拉效果
-		var flag = true;
-		$('.opd_privilege_wrapper p a').click(function() {
-			var $this = $(this);
-
-			if (flag) {
-				$this.html('+');
-				$('.opd_privilege_wrapper ul').stop().slideUp();
-				flag = false;
-			} else {
-				$this.html('-');
-				$('.opd_privilege_wrapper ul').stop().slideDown();
-				flag = true;
-			}
-		});
-		//hover显示书册信息提示
-		$('.ybcommon_queryicon_item').hover(function() {
-			$(this).find('div').show();
-		}, function() {
-			$(this).find('div').show();
-		});
-
-		$('.opd_sketch_item select').change(function() {
-			$this = $(this);
-			switch ($this.closest('td').index()) {
-				case 0:
-					var selected = $this.find('option:selected'),
-						relatedImgEl = $('.opd_sketch_item:eq(0) img'),
-						realterTextEl = $('.opd_sketch_item:eq(0) .ybcommon_queryicon_item div p');
-					switch (selected.val()) {
-						case '别致小装':
-							relatedImgEl.attr('src', 'img/book_details/min_size.jpg');
-							realterTextEl.text('书册尺寸宽14.5cm，长21.0cm');
-							break;
-						case '气派大装':
-							relatedImgEl.attr('src', 'img/book_details/max_size.jpg');
-							realterTextEl.text('书册尺寸宽17.5cm，长s24.8cm');
-							break;
-					}
-					break;
-				case 1:
-					var selected = $this.find('option:selected'),
-						relatedImgEl = $('.opd_sketch_item:eq(1) img'),
-						realterTextEl = $('.opd_sketch_item:eq(1) .ybcommon_queryicon_item div p');
-					switch (selected.val()) {
-						case '平装（软面）':
-							relatedImgEl.attr('src', 'img/book_details/paperback.jpg');
-							realterTextEl.text('书册采用包装为胶装覆膜');
-							break;
-						case '精装（硬壳）':
-							relatedImgEl.attr('src', 'img/book_details/hardcover01.jpg');
-							realterTextEl.text('书册采用包装为精装硬壳覆膜');
-							break;
-						case '蝴蝶装（硬壳）':
-							relatedImgEl.attr('src', 'img/book_details/butterflycover.jpg');
-							realterTextEl.text('书册采用包装为精装硬壳覆膜，装订方式为蝴蝶装');
-							break;
-					}
-					break;
-			}
-		})
-		// $('.opd_sketch_item select, .opd_coupon_wrapper select').chosen({
-		// 	disable_search_threshold: 15
-		// });
-
-		// art.dialog({
-		// 	title: '提示',
-		// 	lock : true,
-		// 	icon: 'warning',
-		// 	content: document.querySelector('.book_oddpage_tips'),
-		// 	okVal: '继续提交',
-		// 	ok: function () {},
-		// 	cancelVal: '返回制作',
-		// 	cancel: function () {}
-		// });
-	}
-
-	function serialNumber() {
-		var serialnumEl = $('.common_serialnumber_item');
-		// serialnumEl.find('input').each(function() {
-			serialnumEl.find('input').keyup(function() {
-				var $this = $(this),
-					thisParentEl = $this.parent(),
-					index=thisParentEl.index();
-				switch (index) {
-					case 0:
-						if ($this.val().length >= 4) {
-							alert(serialnumEl.find('li').eq(index+1).html())
-							serialnumEl.find('li').eq(index+1).focus(function(){
-								alert('aaa')
-							});
-						}
-					break;
-				}
-			})
-		// })
-	}
-	//hover问号显示信息提示
-	function ybcommonqueryicon(){
-		$('.ybcommon_queryicon_item').hover(function() {
-			$(this).find('div').show();
-		}, function() {
-			$(this).find('div').hide();
-		});
-	}
 	function wtf(){
 		// console.log('aaa')
 	}

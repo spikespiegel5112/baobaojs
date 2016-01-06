@@ -8,12 +8,8 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="keywords" content="">
-	<title>宝宝js</title>
-	<!-- build:css css/all.min.css -->
-	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/common.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/baobao.css" type="text/css" media="all">
-	<!-- endbuild -->
+	<title>价格计算器</title>
+	<link rel="stylesheet" href="css/pricecalculator.min.css" media="all">
 </head>
 
 <body>
@@ -230,19 +226,22 @@
 		</div>
 
 	</div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/baobao.js"></script>
+	<script type="text/javascript" src="assets/jquery.min.js"></script>
+	<script src="js/pricecalculator.min.js"></script>
 	<script type="text/javascript">
 		$(function() {
 			$('.ybcommon_counter_item').priceCalculator({
 				unitprice: '.opd_unitprice_item',
 				subtotal: '.opd_summaraize_item label',
-				totalprice: '.opd_subtotalprice_item span'
+				totalprice: '.opd_subtotalprice_item span',
+				onchange:function(){
+					eventhandler();
+				}
 			});
 		})
 
 		function eventhandler() {
-			// console.log('aaa')
+			console.log('change!')
 		}
 	</script>
 </body>
